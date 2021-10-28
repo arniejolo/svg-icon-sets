@@ -19,6 +19,7 @@ body {
 header {
   color: #fff;
   text-align: left;
+  padding: 1rem;
 }
 
 ul {
@@ -45,4 +46,5 @@ h3 {
 
 p {
   text-align: left;
+  font-size: 1.125rem;
 }
