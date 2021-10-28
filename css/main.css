@@ -61,6 +61,7 @@ a {
 main {
   display: flex;
   flex-direction: row;
+  padding: 1rem;
 }
 
 section {
