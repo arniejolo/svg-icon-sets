@@ -56,7 +56,7 @@ a {
   fill: currentColor;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 608px) {
 
 main {
   display: flex;
