@@ -12,14 +12,14 @@ html {
 
 body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
-  padding: 0;
+  padding: 1rem;
   margin: 0;
 }
 
 header {
   color: #fff;
   text-align: left;
-  padding: 1rem;
+
 }
 
 ul {
@@ -30,7 +30,6 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 1rem;
 }
 
 ul > li {
