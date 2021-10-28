@@ -47,3 +47,14 @@ p {
   text-align: left;
   font-size: 1.125rem;
 }
+
+.icon {
+  fill: #fff;
+  width: 8rem;
+  height: 8rem;
+}
+
+.icon svg {
+  fill: #fff;
+
+}
