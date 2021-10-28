@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   line-height: 1.5;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  color: #ffffff;
+  color: #fff;
 }
 
 h1 {
@@ -29,14 +29,13 @@ h3 {
   font-size: 1.125rem;
   font-weight: normal;
   border: solid #fff .2rem;
+  padding: 1rem;
   text-align: center;
 }
 
 main {
-  color: #ffffff;
+  color: #fff;
   padding: 1rem;
-
-
 }
 
 a {
