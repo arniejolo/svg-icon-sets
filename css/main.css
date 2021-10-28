@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -8,4 +10,27 @@ html {
 
 body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
+}
+
+header {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+main {
+  color: #ffffff;
+}
+.icon {
+  fill: #ffffff;
 }
