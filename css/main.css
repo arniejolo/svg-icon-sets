@@ -41,6 +41,7 @@ ul > li {
 h3 {
   border: solid #fff .2rem;
   font-weight: normal;
+  padding: 1rem;
 }
 
 p {
