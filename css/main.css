@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
   font-family: Overpass, sans-serif;
   line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -47,8 +49,24 @@ a {
 .icon {
   height: 8rem;
   width: 8rem;
+  color: #fff;
 }
 
 .icon svg {
   fill: currentColor;
+}
+
+@media only screen and (min-width: 650px) {
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+
 }
