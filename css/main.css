@@ -12,14 +12,14 @@ html {
 
 body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
-  padding: 0;
+  padding: 1rem;
   margin: 0;
 }
 
 header {
   color: #fff;
   text-align: left;
-  padding: 1rem 0 0 1rem ;
+  padding: 0;
 }
 
 main {
@@ -65,18 +65,4 @@ p {
 .icon svg {
   fill: #fff;
 
-}
-
-@media only screen and (min-width:608px){
-  header {
-    text-align: center;
-  }
-
-  section > ul {
-    flex-wrap: wrap;
-  }
-
-  i > .icon {
-      justify-content: center;
-  }
 }
