@@ -73,7 +73,10 @@ p {
   }
 
   section > ul {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
+  i > .icon {
+      justify-content: center;
+  }
 }
