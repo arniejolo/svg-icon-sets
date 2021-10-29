@@ -23,7 +23,7 @@ header {
 }
 
 main {
-  padding: 0 1rem 0 1rem;
+  padding: 0 6vmin 0 6vmin;
   margin: 0;
 }
 
@@ -45,6 +45,7 @@ ul > li {
 
   color: #fff;
   text-align: center;
+  justify-content: space-around;
 }
 
 h2 {
@@ -67,6 +68,7 @@ p {
 }
 
 .icon {
+  position: relative;
   fill: #fff;
   width: 8rem;
   height: 8rem;
@@ -74,4 +76,5 @@ p {
 
 .icon svg {
   fill: #fff;
+
 }
