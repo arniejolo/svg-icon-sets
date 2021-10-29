@@ -12,14 +12,14 @@ html {
 
 body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
-  padding: 1rem;
+  padding: 0;
   margin: 0;
 }
 
 header {
   color: #fff;
-  text-align: left;
-  padding: 0;
+  padding: 6vmin;
+
 }
 
 main {
