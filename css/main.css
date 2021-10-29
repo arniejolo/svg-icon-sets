@@ -38,6 +38,9 @@ ul {
 
 ul > li {
 
+  display: flex;
+  flex-direction: column;
+
   color: #fff;
   text-align: center;
 }
@@ -45,7 +48,7 @@ ul > li {
 h3 {
   border: solid #fff .2rem;
   font-weight: normal;
-  padding: 6vmin;
+  padding: 1rem;
 }
 
 p {
@@ -61,5 +64,16 @@ p {
 
 .icon svg {
   fill: #fff;
+
+}
+
+@media only screen and (min-width:608px){
+  header {
+    text-align: center;
+  }
+
+  section > ul {
+    flex-direction: column;
+  }
 
 }
