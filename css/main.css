@@ -23,7 +23,8 @@ header {
 }
 
 main {
-  padding: 1rem;
+  padding: 0 1rem 0 1rem;
+  margin: 0;
 }
 
 ul {
@@ -40,11 +41,16 @@ ul > li {
 
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 
   color: #fff;
   text-align: center;
 }
 
+h2 {
+  padding: 1rem;
+  margin: 0;
+}
 h3 {
   border: solid #fff .2rem;
   font-weight: normal;
@@ -53,7 +59,10 @@ h3 {
 
 p {
   text-align: left;
+  font-weight: regular;
   font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
 }
 
 .icon {
