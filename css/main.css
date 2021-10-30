@@ -58,7 +58,7 @@ h3 {
   border: solid rgba(255, 255, 255, .7) .2rem;
   font-weight: normal;
   padding: 1rem;
-  margin: 0;
+  margin: 0 0 1.5rem 0;
 }
 
 p {
@@ -66,7 +66,7 @@ p {
   font-weight: regular;
   font-size: 1.125rem;
   padding: 0;
-  margin: 0;
+  margin: 0 0 1.5rem 0;
 }
 
 .icon {
