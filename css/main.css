@@ -119,6 +119,10 @@ ul {
   grid-column-gap: 6vmin;
 }
 
+h1 {
+  padding: 1rem;
 }
-
+h2 {
+  text-align: center;
+}
 }
