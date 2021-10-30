@@ -75,7 +75,7 @@ p {
   fill: #fff;
   width: 8rem;
   height: 8rem;
-  margin-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .icon svg {
