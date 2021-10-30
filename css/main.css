@@ -49,11 +49,13 @@ h2 {
   margin: 1.5rem 0 1.5rem 0;
 }
 
-h3 {
+a {
   border: solid rgba(255, 255, 255, .7) .2rem;
   font-weight: normal;
   padding: 1rem;
   margin: 0 0 1.5rem 0;
+  text-decoration: none;
+  color: #fff;
 }
 
 p {
@@ -88,7 +90,11 @@ p {
 
 ul {
   display: flex;
+}
 
+li {
+  padding: 1rem;
+  align-self: stretch;
 }
 
 }
