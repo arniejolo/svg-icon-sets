@@ -49,13 +49,17 @@ h2 {
   margin: 1.5rem 0 1.5rem 0;
 }
 
-a {
+h3 {
   border: solid rgba(255, 255, 255, .7) .2rem;
   font-weight: normal;
   padding: 1rem;
-  margin: 0 0 1.5rem 0;
+}
+
+a {
+  align-items: center;
   text-decoration: none;
   color: #fff;
+
 }
 
 p {
@@ -71,6 +75,7 @@ p {
   fill: #fff;
   width: 8rem;
   height: 8rem;
+  margin-top: 1.5rem;
 }
 
 .icon svg {
@@ -80,6 +85,11 @@ p {
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+a:hover {
+  color: #ff5e3a;
+  background-color: #fff;
 }
 
 @media only screen and (min-width:608px){
