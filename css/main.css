@@ -29,7 +29,7 @@ main {
 
 ul {
   list-style-type: none;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1rem 1rem;
   margin: 0;
 
   display: flex;
@@ -61,7 +61,7 @@ h2 {
 h3 {
   border: solid rgba(255, 255, 255, .7) .2rem;
   font-weight: normal;
-  margin: 1.5rem 0 0 0;
+  margin: 1.5rem 0 0;
   padding: 1rem;
 }
 
@@ -103,7 +103,7 @@ a:hover {
   background-color: #fff;
 }
 
-@media only screen and (min-width:38em){
+@media only screen and (min-width: 38em) {
 
   header {
     text-align: center;
@@ -111,10 +111,14 @@ a:hover {
 
 ul {
   display: flex;
+  flex-wrap: wrap;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 6vmin;
 }
 
-li {
-  align-items: stretch;
 }
 
 }
