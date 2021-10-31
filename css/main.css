@@ -105,9 +105,9 @@ a:hover {
 
 @media only screen and (min-width: 38em) {
 
-
   header {
     text-align: center;
+    padding: 1rem 0 0 0;
   }
 
 ul {
@@ -137,6 +137,8 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  text-align: left;
 }
 ul > li {
   display: flex;
