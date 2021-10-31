@@ -105,13 +105,9 @@ a:hover {
 
 @media only screen and (min-width: 38em) {
 
-body {
-  padding: 1rem;
-}
   header {
     text-align: center;
   }
-
 ul {
   padding: auto;
   margin: auto;
@@ -122,11 +118,13 @@ ul {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 6vmin;
+
 }
 
 h2 {
   padding: 0;
   margin: 0;
+  text-align: left;
 }
 
 li {
@@ -134,8 +132,6 @@ li {
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-}
-}
 
 }
 
