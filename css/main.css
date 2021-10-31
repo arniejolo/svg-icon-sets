@@ -111,6 +111,8 @@ a:hover {
   }
 
 ul {
+  padding: 0;
+  margin: 1.5rem;
   display: flex;
   flex-wrap: wrap;
 
@@ -127,7 +129,16 @@ h2 {
   text-align: left;
 }
 
-li {
+.superdomes {
+  margin: 0;
+}
+
+.mechastilts {
+  margin: 0;
+}
+
+}
+ul > li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
