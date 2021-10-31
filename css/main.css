@@ -111,8 +111,8 @@ a:hover {
   }
 
 ul {
-  padding: 0;
-  margin: 1.5rem;
+  padding: 1rem;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
 
@@ -148,5 +148,10 @@ ul > li {
 
 }
 
+@media only screen and (min-width: 90em) {
+
+header {
+  margin: 1.5rem;
+}
 }
 }
