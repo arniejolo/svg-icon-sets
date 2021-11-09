@@ -111,6 +111,7 @@ a:hover {
   }
 
 ul {
+  display: content;
   padding: 1rem;
   margin: 0;
   display: flex;
@@ -120,8 +121,8 @@ ul {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 6vmin;
-
 }
+
 
 h2 {
   padding: 0;
@@ -140,6 +141,7 @@ h2 {
 h3 {
   text-align: left;
 }
+
 ul > li {
   display: flex;
   flex-direction: column;
@@ -152,6 +154,13 @@ ul > li {
 
 header {
   margin: 1.5rem;
+}
+
+ul {
+
+}
+
+
 }
 }
 }
