@@ -107,7 +107,7 @@ a:hover {
   }
 
 section {
-  padding: .5rem;
+  padding: .8rem;
 }
 
 ul {
@@ -151,22 +151,6 @@ ul > li {
 
 p {
   font-size: 1rem;
-}
-
-.icon {
-  position: relative;
-  fill: #fff;
-  width: 7.8rem;
-  height: 7.8rem;
-}
-
-.icon svg {
-  fill: #fff;
-  left: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
 }
 }
 
