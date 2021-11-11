@@ -147,7 +147,11 @@ ul > li {
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
+}
 
+p {
+  font-size: 1rem;
+}
 }
 
 @media only screen and (min-width: 90em) {
