@@ -104,11 +104,9 @@ a:hover {
   h1 {
     text-align: center;
     padding: 0;
-  }
+    margin: 1.5rem;
 
-section {
-  padding: .8rem;
-}
+  }
 
 ul {
   display: content;
@@ -125,18 +123,11 @@ ul {
 
 
 h2 {
-  padding: 0;
-  margin: 1.5rem;
+  padding: 1rem;
+  margin: 0;
   text-align: left;
 }
 
-.superdomes {
-  margin: 0;
-}
-
-.mechastilts {
-  margin: 0;
-}
 
 h3 {
   text-align: left;
@@ -152,11 +143,6 @@ ul > li {
 p {
   font-size: 1rem;
 }
-
-ul > li > .bubbles {
-  margin: 0;
-  text-align: left;
-  padding: 1rem, 1rem, 1rem, 0;
 
 }
 }
