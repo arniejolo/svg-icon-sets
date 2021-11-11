@@ -152,6 +152,13 @@ ul > li {
 p {
   font-size: 1rem;
 }
+
+ul > li > .bubbles {
+  margin: 0;
+  text-align: left;
+  padding: 1rem, 1rem, 1rem, 0;
+
+}
 }
 
 @media only screen and (min-width: 90em) {
