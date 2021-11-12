@@ -17,14 +17,15 @@ body {
 
 section {
   background-image: linear-gradient(#ff9500, #ff5e3a);
+  padding: 1rem 0 1rem 0;
 }
 
 h1 {
   color: #fff;
-  padding: 1rem;
   margin: 0;
   text-align: left;
   font-size: 2rem;
+  padding: 1rem;
 }
 
 
