@@ -109,11 +109,18 @@ a:hover {
 
   h1 {
     text-align: center;
+    margin: 0 0 1.5rem 0;
   }
 
 
 
 ul {
+  display: content;
+  padding: 0;
+  margin: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
